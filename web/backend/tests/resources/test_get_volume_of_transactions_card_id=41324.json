@@ -1,0 +1,224 @@
+{
+    "ebay_avg": [
+        {
+            "date_sold": "Fri, 04 Jul 2025 00:00:00 GMT",
+            "psa_grade": 21.0,
+            "sold_price": 31.0,
+            "volume": null
+        },
+        {
+            "date_sold": "Fri, 04 Jul 2025 00:00:00 GMT",
+            "psa_grade": 7.0,
+            "sold_price": 0.0,
+            "volume": null
+        },
+        {
+            "date_sold": "Fri, 04 Jul 2025 00:00:00 GMT",
+            "psa_grade": 10.0,
+            "sold_price": 109.99,
+            "volume": null
+        },
+        {
+            "date_sold": "Sat, 05 Jul 2025 00:00:00 GMT",
+            "psa_grade": 6.0,
+            "sold_price": 12.5,
+            "volume": null
+        },
+        {
+            "date_sold": "Sat, 05 Jul 2025 00:00:00 GMT",
+            "psa_grade": 20.0,
+            "sold_price": 6.5,
+            "volume": null
+        },
+        {
+            "date_sold": "Sat, 05 Jul 2025 00:00:00 GMT",
+            "psa_grade": 10.0,
+            "sold_price": 106.745,
+            "volume": 1
+        },
+        {
+            "date_sold": "Sat, 05 Jul 2025 00:00:00 GMT",
+            "psa_grade": 7.0,
+            "sold_price": 0.0,
+            "volume": null
+        }
+    ],
+    "page": 0,
+    "tcgplayer": [
+        {
+            "card_id": 41324,
+            "created_at": "Thu, 28 Aug 2025 00:00:00 GMT",
+            "date_sold": "Thu, 28 Aug 2025 00:00:00 GMT",
+            "id": 170720554,
+            "interpolated": false,
+            "set_id": 178,
+            "sold_price": 9.88
+        },
+        {
+            "card_id": 41324,
+            "created_at": "Fri, 29 Aug 2025 00:00:00 GMT",
+            "date_sold": "Fri, 29 Aug 2025 00:00:00 GMT",
+            "id": 170915809,
+            "interpolated": false,
+            "set_id": 178,
+            "sold_price": 9.75
+        },
+        {
+            "card_id": 41324,
+            "created_at": "Sat, 30 Aug 2025 00:00:00 GMT",
+            "date_sold": "Sat, 30 Aug 2025 00:00:00 GMT",
+            "id": 171111652,
+            "interpolated": false,
+            "set_id": 178,
+            "sold_price": 9.52
+        },
+        {
+            "card_id": 41324,
+            "created_at": "Sun, 31 Aug 2025 00:00:00 GMT",
+            "date_sold": "Sun, 31 Aug 2025 00:00:00 GMT",
+            "id": 171307486,
+            "interpolated": false,
+            "set_id": 178,
+            "sold_price": 9.73
+        },
+        {
+            "card_id": 41324,
+            "created_at": "Mon, 01 Sep 2025 00:00:00 GMT",
+            "date_sold": "Mon, 01 Sep 2025 00:00:00 GMT",
+            "id": 171503284,
+            "interpolated": false,
+            "set_id": 178,
+            "sold_price": 9.64
+        },
+        {
+            "card_id": 41324,
+            "created_at": "Tue, 02 Sep 2025 00:00:00 GMT",
+            "date_sold": "Tue, 02 Sep 2025 00:00:00 GMT",
+            "id": 171699067,
+            "interpolated": false,
+            "set_id": 178,
+            "sold_price": 9.2
+        },
+        {
+            "card_id": 41324,
+            "created_at": "Wed, 03 Sep 2025 00:00:00 GMT",
+            "date_sold": "Wed, 03 Sep 2025 00:00:00 GMT",
+            "id": 171894856,
+            "interpolated": false,
+            "set_id": 178,
+            "sold_price": 9.46
+        },
+        {
+            "card_id": 41324,
+            "created_at": "Thu, 04 Sep 2025 00:00:00 GMT",
+            "date_sold": "Thu, 04 Sep 2025 00:00:00 GMT",
+            "id": 172090641,
+            "interpolated": false,
+            "set_id": 178,
+            "sold_price": 9.77
+        },
+        {
+            "card_id": 41324,
+            "created_at": "Fri, 05 Sep 2025 00:00:00 GMT",
+            "date_sold": "Fri, 05 Sep 2025 00:00:00 GMT",
+            "id": 172286389,
+            "interpolated": false,
+            "set_id": 178,
+            "sold_price": 9.8
+        }
+    ],
+    "transactions": [
+        {
+            "card_id": 41324,
+            "date_sold": "Thu, 05 Sep 2024 00:00:00 GMT",
+            "ebay_handle": "millenniumrose",
+            "ebay_item_id": "326259053488",
+            "id": 14557585,
+            "marketplace": "ebay",
+            "num_bids": 0,
+            "psa_grade": 0.0,
+            "set_id": 178,
+            "sold_price": 3.49,
+            "title": "Pokemon Card - Eevee TG11/TG30 Ultra Rare Brilliant Stars Trainer Gallery Holo"
+        },
+        {
+            "card_id": 41324,
+            "date_sold": "Thu, 05 Sep 2024 00:00:00 GMT",
+            "ebay_handle": "jawoodm96",
+            "ebay_item_id": "387307986988",
+            "id": 14359403,
+            "marketplace": "ebay",
+            "num_bids": 0,
+            "psa_grade": 0.0,
+            "set_id": 178,
+            "sold_price": 5.25,
+            "title": "Pokémon TCG Eevee Sword & Shield: Brilliant Stars TG11/TG30 Holo Secret Rare (2)"
+        },
+        {
+            "card_id": 41324,
+            "date_sold": "Thu, 05 Sep 2024 00:00:00 GMT",
+            "ebay_handle": "psa",
+            "ebay_item_id": "305753253035",
+            "id": 14359419,
+            "marketplace": "ebay",
+            "num_bids": 8,
+            "psa_grade": 9.0,
+            "set_id": 178,
+            "sold_price": 11.5,
+            "title": "2022 POKEMON SWORD & SHIELD BRILLIANT STARS #TG11 FULL ART/EEVEE PSA 9"
+        },
+        {
+            "card_id": 41324,
+            "date_sold": "Thu, 05 Sep 2024 01:15:01 GMT",
+            "ebay_handle": "",
+            "ebay_item_id": "365091794653",
+            "id": 19197371,
+            "marketplace": "eBay",
+            "num_bids": 0,
+            "psa_grade": 8.0,
+            "set_id": 178,
+            "sold_price": 10.5,
+            "title": "2022 Pokemon SWSH Brilliant Stars #TG11/TG30 Eevee FA PSA 8 NM-MT"
+        },
+        {
+            "card_id": 41324,
+            "date_sold": "Fri, 06 Sep 2024 00:00:00 GMT",
+            "ebay_handle": "haymakerbullpen",
+            "ebay_item_id": "196593992553",
+            "id": 14374023,
+            "marketplace": "ebay",
+            "num_bids": 1,
+            "psa_grade": 9.0,
+            "set_id": 178,
+            "sold_price": 6.99,
+            "title": "2022 Pokemon SWSH Brilliant Starss #TG11 Eevee FA PSA 9 MINT"
+        },
+        {
+            "card_id": 41324,
+            "date_sold": "Fri, 06 Sep 2024 00:00:00 GMT",
+            "ebay_handle": "chillanthony",
+            "ebay_item_id": "405159686572",
+            "id": 14557584,
+            "marketplace": "ebay",
+            "num_bids": 0,
+            "psa_grade": 0.0,
+            "set_id": 178,
+            "sold_price": 2.25,
+            "title": "Pokémon TCG Eevee Brilliant Stars TG11/TG30 Holo Secret Rare"
+        },
+            {
+            "card_id": 41324,
+            "date_sold": "Fri, 06 Sep 2024 00:00:00 GMT",
+            "ebay_handle": "jonnypopscollectibles1028",
+            "ebay_item_id": "296670597123",
+            "id": 14557583,
+            "marketplace": "ebay",
+            "num_bids": 0,
+            "psa_grade": 0.0,
+            "set_id": 178,
+            "sold_price": 3.0,
+            "title": "Eevee TG11/TG30 Ultra Rare Brilliant Stars Pokemon TCG NM"
+        }
+    ],
+    "updated_date": "2025-09-05 18:03:50"
+}

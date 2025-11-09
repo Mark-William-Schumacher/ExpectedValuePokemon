@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Card Viewer</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .card-img { max-width: 100%; height: 200px; object-fit: contain; }
+    </style>
+</head>
+<body>
+<div class="container mt-4">
+    <h1 class="text-center">Dynamic Card Viewer</h1>
+
+    <!-- Toggle Bar -->
+    <div class="toggle-bar d-flex justify-content-center align-items-center mb-4">
+        <label for="view-toggle">Details:</label>
+        <select id="view-toggle" class="form-control w-auto ml-2">
+            <option value="simple">Simple</option>
+            <option value="detailed">Detailed</option>
+        </select>
+    </div>
+
+    <div id="card-container" class="row"></div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    // Fetch card data from the new API endpoint
+    fetch('/api/cards')
+        .then(response => response.json())
+        .then(data => {
+            const cards = data.cards;
+            renderCards(cards, 'simple'); // Default to 'simple' view
+
+            // Attach an event listener to the dropdown to toggle views
+            document.getElementById('view-toggle').addEventListener('change', function (e) {
+                const selectedView = e.target.value; // Simple or detailed view
+                renderCards(cards, selectedView);
+            });
+        });
+
+    // Render cards dynamically based on view type
+    function renderCards(cards, view) {
+        const container = document.getElementById('card-container');
+        container.innerHTML = ''; // Clear any existing cards
+
+        cards.forEach(card => {
+            const cardHtml = `
+                <div class="col-md-3 mb-4">
+                    <div class="card h-100">
+                        <img src="${card.card_data.img_url || 'https://via.placeholder.com/150'}"
+                             class="card-img-top card-img img-thumbnail" alt="Card Image">
+                        <div class="card-body">
+                            ${view === 'simple' ? renderSimple(card) : renderDetailed(card)}
+                        </div>
+                    </div>
+                </div>
+            `;
+            container.insertAdjacentHTML('beforeend', cardHtml); // Insert card into the container
+        });
+    }
+
+    // Generate simple view for a card
+    function renderSimple(card) {
+        return `
+            <h6>${card.card_data.name} #${card.card_data.num}</h6>
+            <p>
+                Raw Price: $${card.raw_price.toFixed(2)}<br>
+                Average Price: $${card.average_sold_price.toFixed(2)}<br>
+            </p>
+        `;
+    }
+
+    // Generate detailed view for a card
+    function renderDetailed(card) {
+        return `
+            <h6>${card.card_data.name} #${card.card_data.num}</h6>
+            <p>
+                Raw Price: $${card.raw_price.toFixed(2)}<br>
+                PSA 10 Price: $${card.psa_10_price.toFixed(2)}<br>
+                Gem Rate: ${Math.round(card.gem_rate * 100)}%<br>
+                Expected Value: $${card.ev.toFixed(2)}<br>
+                Initial Cost: $${card.total_cost.toFixed(2)}<br>
+                Net Gain: $${card.net_gain.toFixed(2)}<br>
+                Lucrative Factor: ${card.lucrative_factor.toFixed(2)}<br>
+                Pop 10: ${card.psa_10_pop}, Other Pop: ${card.non_psa_10_pop}
+            </p>
+        `;
+    }
+</script>
+</body>
+</html>

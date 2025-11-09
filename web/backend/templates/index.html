@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Card Viewer</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body class="bg-light">
+    <div class="container mt-4">
+        <h1 class="text-center">Card Viewer</h1>
+        <div class="row">
+            {% for card in cards %}
+            <div class="col-md-3 mb-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="{{ card['card_data']['img_url'] }}" class="card-img-top" alt="Card Image">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ card['name'] }}</h5>
+                        <p class="card-text">Net Gain: ${{ card['net_gain'] }}</p>
+                        <a href="https://www.pokedata.io/card/{{ card['set_name'].replace(' ', '+') }}/{{ card['name'].replace(' ', '+') }}+{{ card['card_data']['num'] }}" target="_blank" class="btn btn-primary">More Info</a>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</body>
+</html>

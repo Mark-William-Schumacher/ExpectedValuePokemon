@@ -1,0 +1,301 @@
+{
+    "data": [
+        {
+            "hot": 1,
+            "id": 73053,
+            "img_url": "https://pokemoncardimages.s3.us-east-2.amazonaws.com/images/Prismatic+Evolutions/093.webp",
+            "language": "ENGLISH",
+            "live": true,
+            "name": "Amarys",
+            "num": "093",
+            "release_date": "2025-01-17",
+            "secret": false,
+            "set_code": "PRE",
+            "set_id": 557,
+            "set_name": "Prismatic Evolutions",
+            "stat_url": "/api/cards/stats",
+            "stats": [
+                {
+                    "avg": 0.03,
+                    "source": 0.0
+                },
+                {
+                    "avg": 0.03,
+                    "source": 11.0
+                },
+                {
+                    "avg": 1.34,
+                    "source": 12.0
+                }
+            ]
+        },
+        {
+            "hot": 1,
+            "id": 73092,
+            "img_url": "https://pokemoncardimages.s3.us-east-2.amazonaws.com/images/Prismatic+Evolutions/132.webp",
+            "language": "ENGLISH",
+            "live": true,
+            "name": "Amarys",
+            "num": "132",
+            "release_date": "2025-01-17",
+            "secret": true,
+            "set_code": "PRE",
+            "set_id": 557,
+            "set_name": "Prismatic Evolutions",
+            "stat_url": "/api/cards/stats",
+            "stats": [
+                {
+                    "avg": 0.66,
+                    "source": 0.0
+                },
+                {
+                    "avg": 12.5,
+                    "source": 9.0
+                },
+                {
+                    "avg": 24.5,
+                    "source": 10.0
+                },
+                {
+                    "avg": 0.66,
+                    "source": 11.0
+                },
+                {
+                    "avg": 2.042111111111111,
+                    "source": 12.0
+                }
+            ]
+        },
+        {
+            "hot": 1,
+            "id": 73019,
+            "img_url": "https://pokemoncardimages.s3.us-east-2.amazonaws.com/images/Prismatic+Evolutions/059.webp",
+            "language": "ENGLISH",
+            "live": true,
+            "name": "Umbreon",
+            "num": "059",
+            "release_date": "2025-01-17",
+            "secret": false,
+            "set_code": "PRE",
+            "set_id": 557,
+            "set_name": "Prismatic Evolutions",
+            "stat_url": "/api/cards/stats",
+            "stats": [
+                {
+                    "avg": 0.21,
+                    "source": 0.0
+                },
+                {
+                    "avg": 13.75,
+                    "source": 9.0
+                },
+                {
+                    "avg": 50.0,
+                    "source": 10.0
+                },
+                {
+                    "avg": 0.21,
+                    "source": 11.0
+                },
+                {
+                    "avg": 1.51125,
+                    "source": 12.0
+                },
+                {
+                    "avg": 15.5,
+                    "source": 21.0
+                }
+            ]
+        },
+        {
+            "hot": 1,
+            "id": 73020,
+            "img_url": "https://pokemoncardimages.s3.us-east-2.amazonaws.com/images/Prismatic+Evolutions/060.webp",
+            "language": "ENGLISH",
+            "live": true,
+            "name": "Umbreon ex",
+            "num": "060",
+            "release_date": "2025-01-17",
+            "secret": false,
+            "set_code": "PRE",
+            "set_id": 557,
+            "set_name": "Prismatic Evolutions",
+            "stat_url": "/api/cards/stats",
+            "stats": [
+                {
+                    "avg": 4.31,
+                    "source": 0.0
+                },
+                {
+                    "avg": 18.0125,
+                    "source": 9.0
+                },
+                {
+                    "avg": 92.16333333333333,
+                    "source": 10.0
+                },
+                {
+                    "avg": 4.31,
+                    "source": 11.0
+                },
+                {
+                    "avg": 5.2139444444444445,
+                    "source": 12.0
+                }
+            ]
+        },
+        {
+            "hot": 1,
+            "id": 73121,
+            "img_url": "https://pokemoncardimages.s3.us-east-2.amazonaws.com/images/Prismatic+Evolutions/161.webp",
+            "language": "ENGLISH",
+            "live": true,
+            "name": "Umbreon ex",
+            "num": "161",
+            "release_date": "2025-01-17",
+            "secret": true,
+            "set_code": "PRE",
+            "set_id": 557,
+            "set_name": "Prismatic Evolutions",
+            "stat_url": "/api/cards/stats",
+            "stats": [
+                {
+                    "avg": 841.43,
+                    "source": 0.0
+                },
+                {
+                    "avg": 952.23,
+                    "source": 9.0
+                },
+                {
+                    "avg": 3099.6641666666665,
+                    "source": 10.0
+                },
+                {
+                    "avg": 841.43,
+                    "source": 11.0
+                },
+                {
+                    "avg": 922.081619047619,
+                    "source": 12.0
+                },
+                {
+                    "avg": 1200.0,
+                    "source": 20.0
+                }
+            ]
+        },
+        {
+            "hot": 1,
+            "id": 73665,
+            "img_url": "https://pokemoncardimages.s3.us-east-2.amazonaws.com/images/Prismatic Evolutions/059m.webp",
+            "language": "ENGLISH",
+            "live": true,
+            "name": "Umbreon Master Ball Holo",
+            "num": "59",
+            "release_date": "2025-01-17",
+            "secret": false,
+            "set_code": "PRE",
+            "set_id": 557,
+            "set_name": "Prismatic Evolutions",
+            "stat_url": "/api/cards/stats",
+            "stats": [
+                {
+                    "avg": 73.05,
+                    "source": 0.0
+                },
+                {
+                    "avg": 65.0,
+                    "source": 9.0
+                },
+                {
+                    "avg": 460.0,
+                    "source": 10.0
+                },
+                {
+                    "avg": 73.05,
+                    "source": 11.0
+                },
+                {
+                    "avg": 71.19222222222223,
+                    "source": 12.0
+                }
+            ]
+        },
+        {
+            "hot": 1,
+            "id": 73109,
+            "img_url": "https://pokemoncardimages.s3.us-east-2.amazonaws.com/images/Prismatic+Evolutions/149.webp",
+            "language": "ENGLISH",
+            "live": true,
+            "name": "Vaporeon ex",
+            "num": "149",
+            "release_date": "2025-01-17",
+            "secret": true,
+            "set_code": "PRE",
+            "set_id": 557,
+            "set_name": "Prismatic Evolutions",
+            "stat_url": "/api/cards/stats",
+            "stats": [
+                {
+                    "avg": 191.97,
+                    "source": 0.0
+                },
+                {
+                    "avg": 191.43,
+                    "source": 9.0
+                },
+                {
+                    "avg": 798.7033333333334,
+                    "source": 10.0
+                },
+                {
+                    "avg": 191.97,
+                    "source": 11.0
+                },
+                {
+                    "avg": 176.088,
+                    "source": 12.0
+                }
+            ]
+        },
+        {
+            "hot": 1,
+            "id": 73590,
+            "img_url": "https://pokemoncardimages.s3.us-east-2.amazonaws.com/images/Prismatic Evolutions/022m.webp",
+            "language": "ENGLISH",
+            "live": true,
+            "name": "Vaporeon Master Ball Holo",
+            "num": "22",
+            "release_date": "2025-01-17",
+            "secret": false,
+            "set_code": "PRE",
+            "set_id": 557,
+            "set_name": "Prismatic Evolutions",
+            "stat_url": "/api/cards/stats",
+            "stats": [
+                {
+                    "avg": 21.09,
+                    "source": 0.0
+                },
+                {
+                    "avg": 32.0,
+                    "source": 9.0
+                },
+                {
+                    "avg": 269.5,
+                    "source": 10.0
+                },
+                {
+                    "avg": 21.09,
+                    "source": 11.0
+                },
+                {
+                    "avg": 19.7375,
+                    "source": 12.0
+                }
+            ]
+        }
+    ],
+    "updated_date": "2025-09-11 20:19:48"
+}

@@ -1,0 +1,1223 @@
+{
+    "data": [
+        {
+            "code": null,
+            "id": 571,
+            "language": "ENGLISH",
+            "name": "White Flare",
+            "release_date": "Fri, 18 Jul 2025 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 570,
+            "language": "ENGLISH",
+            "name": "Black Bolt",
+            "release_date": "Fri, 18 Jul 2025 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 567,
+            "language": "ENGLISH",
+            "name": "Destined Rivals",
+            "release_date": "Fri, 30 May 2025 00:00:00 GMT"
+        },
+        {
+            "code": "JTG",
+            "id": 562,
+            "language": "ENGLISH",
+            "name": "Journey Together",
+            "release_date": "Fri, 28 Mar 2025 00:00:00 GMT"
+        },
+        {
+            "code": "M24",
+            "id": 559,
+            "language": "ENGLISH",
+            "name": "Mcdonald's Dragon Discovery",
+            "release_date": "Tue, 21 Jan 2025 00:00:00 GMT"
+        },
+        {
+            "code": "PRE",
+            "id": 557,
+            "language": "ENGLISH",
+            "name": "Prismatic Evolutions",
+            "release_date": "Fri, 17 Jan 2025 00:00:00 GMT"
+        },
+        {
+            "code": "SSP",
+            "id": 555,
+            "language": "ENGLISH",
+            "name": "Surging Sparks",
+            "release_date": "Fri, 08 Nov 2024 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 549,
+            "language": "ENGLISH",
+            "name": "Stellar Crown",
+            "release_date": "Fri, 13 Sep 2024 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 554,
+            "language": "ENGLISH",
+            "name": "Trick or Trade 2024",
+            "release_date": "Fri, 30 Aug 2024 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 548,
+            "language": "ENGLISH",
+            "name": "Shrouded Fable",
+            "release_date": "Fri, 02 Aug 2024 00:00:00 GMT"
+        },
+        {
+            "code": "TWM",
+            "id": 545,
+            "language": "ENGLISH",
+            "name": "Twilight Masquerade",
+            "release_date": "Sat, 25 May 2024 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 542,
+            "language": "ENGLISH",
+            "name": "Temporal Forces",
+            "release_date": "Fri, 22 Mar 2024 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 539,
+            "language": "ENGLISH",
+            "name": "Paldean Fates",
+            "release_date": "Fri, 26 Jan 2024 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 561,
+            "language": "ENGLISH",
+            "name": "Trading Card Game Classic",
+            "release_date": "Fri, 17 Nov 2023 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 536,
+            "language": "ENGLISH",
+            "name": "Paradox Rift",
+            "release_date": "Fri, 03 Nov 2023 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 532,
+            "language": "ENGLISH",
+            "name": "Pokemon Card 151",
+            "release_date": "Fri, 22 Sep 2023 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 531,
+            "language": "ENGLISH",
+            "name": "Trick or Trade 2023",
+            "release_date": "Fri, 01 Sep 2023 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 517,
+            "language": "ENGLISH",
+            "name": "Obsidian Flames",
+            "release_date": "Fri, 11 Aug 2023 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 530,
+            "language": "ENGLISH",
+            "name": "McDonald's Promos 2023",
+            "release_date": "Thu, 27 Jul 2023 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 513,
+            "language": "ENGLISH",
+            "name": "Paldea Evolved",
+            "release_date": "Fri, 09 Jun 2023 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 510,
+            "language": "ENGLISH",
+            "name": "Scarlet & Violet Base",
+            "release_date": "Fri, 31 Mar 2023 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 506,
+            "language": "ENGLISH",
+            "name": "Crown Zenith",
+            "release_date": "Fri, 20 Jan 2023 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 515,
+            "language": "ENGLISH",
+            "name": "Scarlet & Violet Promos",
+            "release_date": "Sun, 01 Jan 2023 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 503,
+            "language": "ENGLISH",
+            "name": "Silver Tempest",
+            "release_date": "Fri, 11 Nov 2022 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 400,
+            "language": "ENGLISH",
+            "name": "Lost Origin",
+            "release_date": "Fri, 09 Sep 2022 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 504,
+            "language": "ENGLISH",
+            "name": "Trick or Trade 2022",
+            "release_date": "Thu, 01 Sep 2022 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 399,
+            "language": "ENGLISH",
+            "name": "Mcdonald's Promos 2022",
+            "release_date": "Tue, 16 Aug 2022 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 387,
+            "language": "ENGLISH",
+            "name": "Pokemon GO",
+            "release_date": "Fri, 01 Jul 2022 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 182,
+            "language": "ENGLISH",
+            "name": "Astral Radiance",
+            "release_date": "Fri, 27 May 2022 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 178,
+            "language": "ENGLISH",
+            "name": "Brilliant Stars",
+            "release_date": "Fri, 25 Feb 2022 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 172,
+            "language": "ENGLISH",
+            "name": "Fusion Strike",
+            "release_date": "Sun, 31 Oct 2021 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 112,
+            "language": "ENGLISH",
+            "name": "Celebrations",
+            "release_date": "Fri, 08 Oct 2021 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 111,
+            "language": "ENGLISH",
+            "name": "Celebrations: Classic Collection",
+            "release_date": "Thu, 07 Oct 2021 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 108,
+            "language": "ENGLISH",
+            "name": "Evolving Skies",
+            "release_date": "Fri, 27 Aug 2021 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 26,
+            "language": "ENGLISH",
+            "name": "Chilling Reign",
+            "release_date": "Fri, 18 Jun 2021 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 20,
+            "language": "ENGLISH",
+            "name": "Battle Styles",
+            "release_date": "Fri, 19 Mar 2021 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 21,
+            "language": "ENGLISH",
+            "name": "Shining Fates",
+            "release_date": "Fri, 19 Feb 2021 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 171,
+            "language": "ENGLISH",
+            "name": "Mcdonald's 25th Anniversary",
+            "release_date": "Tue, 09 Feb 2021 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 3,
+            "language": "ENGLISH",
+            "name": "Vivid Voltage",
+            "release_date": "Fri, 13 Nov 2020 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 2,
+            "language": "ENGLISH",
+            "name": "Champion's Path",
+            "release_date": "Fri, 25 Sep 2020 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 4,
+            "language": "ENGLISH",
+            "name": "Darkness Ablaze",
+            "release_date": "Fri, 14 Aug 2020 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 5,
+            "language": "ENGLISH",
+            "name": "Rebel Clash",
+            "release_date": "Fri, 01 May 2020 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 6,
+            "language": "ENGLISH",
+            "name": "Sword & Shield",
+            "release_date": "Fri, 07 Feb 2020 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 7,
+            "language": "ENGLISH",
+            "name": "Cosmic Eclipse",
+            "release_date": "Fri, 01 Nov 2019 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 521,
+            "language": "ENGLISH",
+            "name": "McDonald's Promos 2019",
+            "release_date": "Tue, 15 Oct 2019 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 109,
+            "language": "ENGLISH",
+            "name": "Sword & Shield Promo",
+            "release_date": "Tue, 01 Oct 2019 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 1,
+            "language": "ENGLISH",
+            "name": "Hidden Fates",
+            "release_date": "Fri, 23 Aug 2019 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 8,
+            "language": "ENGLISH",
+            "name": "Unified Minds",
+            "release_date": "Fri, 02 Aug 2019 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 24,
+            "language": "ENGLISH",
+            "name": "Unbroken Bonds",
+            "release_date": "Fri, 03 May 2019 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 23,
+            "language": "ENGLISH",
+            "name": "Detective Pikachu",
+            "release_date": "Fri, 29 Mar 2019 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 9,
+            "language": "ENGLISH",
+            "name": "Team Up",
+            "release_date": "Fri, 01 Feb 2019 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 10,
+            "language": "ENGLISH",
+            "name": "Lost Thunder",
+            "release_date": "Fri, 02 Nov 2018 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 522,
+            "language": "ENGLISH",
+            "name": "McDonald's Promos 2018",
+            "release_date": "Fri, 19 Oct 2018 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 11,
+            "language": "ENGLISH",
+            "name": "Dragon Majesty",
+            "release_date": "Fri, 07 Sep 2018 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 12,
+            "language": "ENGLISH",
+            "name": "Celestial Storm",
+            "release_date": "Fri, 03 Aug 2018 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 13,
+            "language": "ENGLISH",
+            "name": "Forbidden Light",
+            "release_date": "Fri, 04 May 2018 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 14,
+            "language": "ENGLISH",
+            "name": "Ultra Prism",
+            "release_date": "Fri, 02 Feb 2018 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 15,
+            "language": "ENGLISH",
+            "name": "Crimson Invasion",
+            "release_date": "Fri, 03 Nov 2017 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 16,
+            "language": "ENGLISH",
+            "name": "Shining Legends",
+            "release_date": "Fri, 06 Oct 2017 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 17,
+            "language": "ENGLISH",
+            "name": "Burning Shadows",
+            "release_date": "Fri, 04 Aug 2017 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 523,
+            "language": "ENGLISH",
+            "name": "McDonald's Promos 2017",
+            "release_date": "Thu, 03 Aug 2017 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 18,
+            "language": "ENGLISH",
+            "name": "Guardians Rising",
+            "release_date": "Fri, 05 May 2017 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 19,
+            "language": "ENGLISH",
+            "name": "Sun & Moon",
+            "release_date": "Fri, 03 Feb 2017 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 25,
+            "language": "ENGLISH",
+            "name": "Sun & Moon Black Star Promo",
+            "release_date": "Mon, 03 Oct 2016 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 22,
+            "language": "ENGLISH",
+            "name": "Evolutions",
+            "release_date": "Sun, 02 Oct 2016 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 524,
+            "language": "ENGLISH",
+            "name": "McDonald's Promos 2016",
+            "release_date": "Sat, 20 Aug 2016 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 31,
+            "language": "ENGLISH",
+            "name": "Steam Siege",
+            "release_date": "Wed, 03 Aug 2016 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 32,
+            "language": "ENGLISH",
+            "name": "Fates Collide",
+            "release_date": "Mon, 02 May 2016 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 169,
+            "language": "ENGLISH",
+            "name": "Generations Radiant Collection",
+            "release_date": "Mon, 22 Feb 2016 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 33,
+            "language": "ENGLISH",
+            "name": "Generations",
+            "release_date": "Mon, 22 Feb 2016 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 34,
+            "language": "ENGLISH",
+            "name": "BREAKpoint",
+            "release_date": "Wed, 03 Feb 2016 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 525,
+            "language": "ENGLISH",
+            "name": "McDonald's Promos 2015",
+            "release_date": "Fri, 27 Nov 2015 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 35,
+            "language": "ENGLISH",
+            "name": "BREAKthrough",
+            "release_date": "Sun, 04 Oct 2015 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 36,
+            "language": "ENGLISH",
+            "name": "Ancient Origins",
+            "release_date": "Wed, 12 Aug 2015 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 37,
+            "language": "ENGLISH",
+            "name": "Roaring Skies",
+            "release_date": "Wed, 06 May 2015 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 291,
+            "language": "ENGLISH",
+            "name": "Double Crisis",
+            "release_date": "Wed, 25 Mar 2015 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 38,
+            "language": "ENGLISH",
+            "name": "Primal Clash",
+            "release_date": "Wed, 04 Feb 2015 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 39,
+            "language": "ENGLISH",
+            "name": "Phantom Forces",
+            "release_date": "Sun, 05 Oct 2014 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 40,
+            "language": "ENGLISH",
+            "name": "Furious Fists",
+            "release_date": "Wed, 13 Aug 2014 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 174,
+            "language": "ENGLISH",
+            "name": "Alternate Art Promos",
+            "release_date": "Wed, 13 Aug 2014 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 526,
+            "language": "ENGLISH",
+            "name": "McDonald's Promos 2014",
+            "release_date": "Fri, 23 May 2014 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 41,
+            "language": "ENGLISH",
+            "name": "Flashfire",
+            "release_date": "Wed, 07 May 2014 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 42,
+            "language": "ENGLISH",
+            "name": "XY Base",
+            "release_date": "Wed, 05 Feb 2014 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 170,
+            "language": "ENGLISH",
+            "name": "Legendary Treasures Radiant Collection",
+            "release_date": "Wed, 06 Nov 2013 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 43,
+            "language": "ENGLISH",
+            "name": "Legendary Treasures",
+            "release_date": "Wed, 06 Nov 2013 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 175,
+            "language": "ENGLISH",
+            "name": "XY Black Star Promos",
+            "release_date": "Tue, 01 Oct 2013 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 44,
+            "language": "ENGLISH",
+            "name": "Plasma Blast",
+            "release_date": "Wed, 14 Aug 2013 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 45,
+            "language": "ENGLISH",
+            "name": "Plasma Freeze",
+            "release_date": "Wed, 08 May 2013 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 46,
+            "language": "ENGLISH",
+            "name": "Plasma Storm",
+            "release_date": "Wed, 06 Feb 2013 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 389,
+            "language": "ENGLISH",
+            "name": "Dragon Vault",
+            "release_date": "Fri, 12 Oct 2012 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 47,
+            "language": "ENGLISH",
+            "name": "Boundaries Crossed",
+            "release_date": "Sun, 07 Oct 2012 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 48,
+            "language": "ENGLISH",
+            "name": "Dragons Exalted",
+            "release_date": "Wed, 15 Aug 2012 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 528,
+            "language": "ENGLISH",
+            "name": "McDonald's Promos 2012",
+            "release_date": "Fri, 15 Jun 2012 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 49,
+            "language": "ENGLISH",
+            "name": "Dark Explorers",
+            "release_date": "Wed, 09 May 2012 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 97,
+            "language": "ENGLISH",
+            "name": "Next Destinies",
+            "release_date": "Wed, 08 Feb 2012 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 50,
+            "language": "ENGLISH",
+            "name": "Noble Victories",
+            "release_date": "Sun, 16 Oct 2011 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 51,
+            "language": "ENGLISH",
+            "name": "Emerging Powers",
+            "release_date": "Wed, 31 Aug 2011 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 529,
+            "language": "ENGLISH",
+            "name": "McDonald's Promos 2011",
+            "release_date": "Fri, 17 Jun 2011 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 30,
+            "language": "ENGLISH",
+            "name": "Black and White",
+            "release_date": "Mon, 25 Apr 2011 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 292,
+            "language": "ENGLISH",
+            "name": "Black and White Promos",
+            "release_date": "Tue, 01 Mar 2011 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 52,
+            "language": "ENGLISH",
+            "name": "Call of Legends",
+            "release_date": "Wed, 09 Feb 2011 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 53,
+            "language": "ENGLISH",
+            "name": "Triumphant",
+            "release_date": "Sun, 03 Oct 2010 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 54,
+            "language": "ENGLISH",
+            "name": "Undaunted",
+            "release_date": "Wed, 18 Aug 2010 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 55,
+            "language": "ENGLISH",
+            "name": "Unleashed",
+            "release_date": "Wed, 12 May 2010 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 80,
+            "language": "ENGLISH",
+            "name": "HeartGold SoulSilver",
+            "release_date": "Wed, 10 Feb 2010 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 518,
+            "language": "ENGLISH",
+            "name": "HGSS Black Star Promo",
+            "release_date": "Mon, 01 Feb 2010 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 176,
+            "language": "ENGLISH",
+            "name": "Miscellaneous Promos",
+            "release_date": "Fri, 01 Jan 2010 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 553,
+            "language": "ENGLISH",
+            "name": "Pokemon Rumble",
+            "release_date": "Wed, 02 Dec 2009 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 56,
+            "language": "ENGLISH",
+            "name": "Arceus",
+            "release_date": "Sun, 04 Oct 2009 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 57,
+            "language": "ENGLISH",
+            "name": "Supreme Victors",
+            "release_date": "Wed, 19 Aug 2009 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 100,
+            "language": "ENGLISH",
+            "name": "Rising Rivals",
+            "release_date": "Sat, 16 May 2009 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 398,
+            "language": "ENGLISH",
+            "name": "Pop Series 9",
+            "release_date": "Sun, 01 Mar 2009 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 98,
+            "language": "ENGLISH",
+            "name": "Platinum",
+            "release_date": "Wed, 11 Feb 2009 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 105,
+            "language": "ENGLISH",
+            "name": "Stormfront",
+            "release_date": "Wed, 01 Oct 2008 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 397,
+            "language": "ENGLISH",
+            "name": "Pop Series 8",
+            "release_date": "Mon, 01 Sep 2008 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 58,
+            "language": "ENGLISH",
+            "name": "Legends Awakened",
+            "release_date": "Fri, 01 Aug 2008 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 87,
+            "language": "ENGLISH",
+            "name": "Majestic Dawn",
+            "release_date": "Thu, 01 May 2008 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 396,
+            "language": "ENGLISH",
+            "name": "Pop Series 7",
+            "release_date": "Sat, 01 Mar 2008 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 59,
+            "language": "ENGLISH",
+            "name": "Great Encounters",
+            "release_date": "Fri, 01 Feb 2008 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 103,
+            "language": "ENGLISH",
+            "name": "Secret Wonders",
+            "release_date": "Mon, 01 Oct 2007 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 395,
+            "language": "ENGLISH",
+            "name": "Pop Series 6",
+            "release_date": "Sat, 01 Sep 2007 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 88,
+            "language": "ENGLISH",
+            "name": "Mysterious Treasures",
+            "release_date": "Wed, 01 Aug 2007 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 60,
+            "language": "ENGLISH",
+            "name": "Diamond & Pearl",
+            "release_date": "Tue, 01 May 2007 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 113,
+            "language": "ENGLISH",
+            "name": "Diamond and Pearl Promo",
+            "release_date": "Tue, 01 May 2007 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 394,
+            "language": "ENGLISH",
+            "name": "Pop Series 5",
+            "release_date": "Thu, 01 Mar 2007 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 99,
+            "language": "ENGLISH",
+            "name": "Power Keepers",
+            "release_date": "Thu, 01 Feb 2007 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 61,
+            "language": "ENGLISH",
+            "name": "Dragon Frontiers",
+            "release_date": "Sun, 01 Oct 2006 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 393,
+            "language": "ENGLISH",
+            "name": "Pop Series 4",
+            "release_date": "Tue, 01 Aug 2006 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 62,
+            "language": "ENGLISH",
+            "name": "Crystal Guardians",
+            "release_date": "Tue, 01 Aug 2006 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 82,
+            "language": "ENGLISH",
+            "name": "Holon Phantoms",
+            "release_date": "Mon, 01 May 2006 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 392,
+            "language": "ENGLISH",
+            "name": "Pop Series 3",
+            "release_date": "Sat, 01 Apr 2006 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 85,
+            "language": "ENGLISH",
+            "name": "Legend Maker",
+            "release_date": "Mon, 13 Feb 2006 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 63,
+            "language": "ENGLISH",
+            "name": "Delta Species",
+            "release_date": "Mon, 31 Oct 2005 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 64,
+            "language": "ENGLISH",
+            "name": "Unseen Forces",
+            "release_date": "Mon, 01 Aug 2005 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 391,
+            "language": "ENGLISH",
+            "name": "Pop Series 2",
+            "release_date": "Mon, 01 Aug 2005 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 65,
+            "language": "ENGLISH",
+            "name": "Emerald",
+            "release_date": "Sun, 01 May 2005 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 66,
+            "language": "ENGLISH",
+            "name": "Deoxys",
+            "release_date": "Tue, 01 Feb 2005 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 107,
+            "language": "ENGLISH",
+            "name": "Team Rocket Returns",
+            "release_date": "Fri, 01 Oct 2004 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 75,
+            "language": "ENGLISH",
+            "name": "Fire Red Leaf Green",
+            "release_date": "Wed, 01 Sep 2004 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 390,
+            "language": "ENGLISH",
+            "name": "Pop Series 1",
+            "release_date": "Wed, 01 Sep 2004 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 81,
+            "language": "ENGLISH",
+            "name": "Hidden Legends",
+            "release_date": "Tue, 01 Jun 2004 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 106,
+            "language": "ENGLISH",
+            "name": "Team Magma vs Team Aqua",
+            "release_date": "Mon, 01 Mar 2004 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 519,
+            "language": "ENGLISH",
+            "name": "Nintendo Black Star Promo",
+            "release_date": "Wed, 01 Oct 2003 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 67,
+            "language": "ENGLISH",
+            "name": "Dragon",
+            "release_date": "Thu, 18 Sep 2003 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 102,
+            "language": "ENGLISH",
+            "name": "Sandstorm",
+            "release_date": "Thu, 18 Sep 2003 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 101,
+            "language": "ENGLISH",
+            "name": "Ruby and Sapphire",
+            "release_date": "Tue, 01 Jul 2003 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 104,
+            "language": "ENGLISH",
+            "name": "Skyridge",
+            "release_date": "Mon, 12 May 2003 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 68,
+            "language": "ENGLISH",
+            "name": "Aquapolis",
+            "release_date": "Wed, 15 Jan 2003 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 74,
+            "language": "ENGLISH",
+            "name": "Expedition",
+            "release_date": "Sun, 15 Sep 2002 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 86,
+            "language": "ENGLISH",
+            "name": "Legendary Collection",
+            "release_date": "Fri, 24 May 2002 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 89,
+            "language": "ENGLISH",
+            "name": "Neo Destiny",
+            "release_date": "Thu, 28 Feb 2002 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 90,
+            "language": "ENGLISH",
+            "name": "Neo Destiny 1st Edition",
+            "release_date": "Wed, 27 Feb 2002 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 95,
+            "language": "ENGLISH",
+            "name": "Neo Revelation",
+            "release_date": "Fri, 21 Sep 2001 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 96,
+            "language": "ENGLISH",
+            "name": "Neo Revelation 1st Edition",
+            "release_date": "Thu, 20 Sep 2001 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 290,
+            "language": "ENGLISH",
+            "name": "Southern Islands",
+            "release_date": "Tue, 31 Jul 2001 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 91,
+            "language": "ENGLISH",
+            "name": "Neo Discovery",
+            "release_date": "Sat, 02 Jun 2001 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 92,
+            "language": "ENGLISH",
+            "name": "Neo Discovery 1st Edition",
+            "release_date": "Fri, 01 Jun 2001 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 93,
+            "language": "ENGLISH",
+            "name": "Neo Genesis",
+            "release_date": "Sat, 16 Dec 2000 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 94,
+            "language": "ENGLISH",
+            "name": "Neo Genesis 1st Edition",
+            "release_date": "Fri, 15 Dec 2000 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 76,
+            "language": "ENGLISH",
+            "name": "Gym Challenge",
+            "release_date": "Mon, 16 Oct 2000 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 77,
+            "language": "ENGLISH",
+            "name": "Gym Challenge 1st Edition",
+            "release_date": "Sun, 15 Oct 2000 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 78,
+            "language": "ENGLISH",
+            "name": "Gym Heroes",
+            "release_date": "Mon, 14 Aug 2000 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 79,
+            "language": "ENGLISH",
+            "name": "Gym Heroes 1st Edition",
+            "release_date": "Sun, 13 Aug 2000 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 69,
+            "language": "ENGLISH",
+            "name": "Team Rocket",
+            "release_date": "Mon, 24 Apr 2000 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 70,
+            "language": "ENGLISH",
+            "name": "Team Rocket 1st Edition",
+            "release_date": "Sun, 23 Apr 2000 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 73,
+            "language": "ENGLISH",
+            "name": "Base Set 2",
+            "release_date": "Thu, 24 Feb 2000 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 71,
+            "language": "ENGLISH",
+            "name": "Fossil",
+            "release_date": "Sun, 10 Oct 1999 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 72,
+            "language": "ENGLISH",
+            "name": "Fossil 1st Edition",
+            "release_date": "Sat, 09 Oct 1999 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 110,
+            "language": "ENGLISH",
+            "name": "WOTC Promo",
+            "release_date": "Thu, 01 Jul 1999 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 83,
+            "language": "ENGLISH",
+            "name": "Jungle",
+            "release_date": "Wed, 16 Jun 1999 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 84,
+            "language": "ENGLISH",
+            "name": "Jungle 1st Edition",
+            "release_date": "Tue, 15 Jun 1999 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 27,
+            "language": "ENGLISH",
+            "name": "Base Set Unlimited",
+            "release_date": "Tue, 12 Jan 1999 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 29,
+            "language": "ENGLISH",
+            "name": "Base Set Shadowless",
+            "release_date": "Mon, 11 Jan 1999 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 28,
+            "language": "ENGLISH",
+            "name": "Base Set 1st Edition",
+            "release_date": "Sun, 10 Jan 1999 00:00:00 GMT"
+        }
+    ],
+    "updated_date": "2025-09-05 22:38:06"
+}

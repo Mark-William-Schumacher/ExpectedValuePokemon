@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Viewer</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .card-img {
+            max-width: 100%;
+            height: 200px;
+            object-fit: contain;
+        }
+
+        .card-body {
+            padding: 8px; /* Reduce padding (default is usually 16px or more) */
+            padding-top: 0; /* Remove bottom margin */
+            padding-bottom: 0; /* Remove bottom padding (if any) */
+        }
+
+        .card-text, .card-title {
+            padding-top: 0; /* Remove bottom margin */
+            padding-bottom: 0; /* Remove bottom padding (if any) */
+            margin-top: 4px;
+            margin-bottom: 4px;
+        }
+
+        .card-title {
+            padding-top: 0; /* Remove bottom margin */
+            padding-bottom: 0; /* Remove bottom padding (if any) */
+            margin-top: 4px;
+            margin-bottom: 4px;
+        }
+    </style>
+</head>
+<body>
+<div class="container mt-4">
+    <h1 class="text-center">Card Viewer</h1>
+    <div class="row">
+        {% for card in cards %}
+        <div class="col-md-3 mb-4">
+            <div class="card" style="height: 100%;">
+                {% if card.card_data.img_url %}
+                <img src="{{ url_for('static', filename='assets/images/' + card.local_image) }}"
+                     class="card-img-top card-img img-thumbnail" alt="Card Image">
+                {% else %}
+                <img src="https://via.placeholder.com/150" class="card-img-top card-img img-thumbnail" alt="No Image">
+                {% endif %}
+                <div class="card-body">
+                    <h6 class="card-title">
+
+                            {{ card.card_data.name }} #{{ card.card_data.num }}<br>
+                            {{card.card_data.set_name}}<br>
+
+                    </h6>
+                    <div>
+                        <b>Raw Price:</b> ${{ "%.2f" | format(card.raw_price) }} <br>
+                        <b>Avg Price:</b> ${{ "%.2f" | format(card.average_sold_price) }} <br>
+                        <b> Recent Sales:</b> <br>
+                        {% for sale in card.sales_details_ui %}
+                        <span>{{ sale }}</span><br>
+                        {% endfor %}
+                    </div>
+                    </p>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    <div class="d-flex justify-content-between">
+        {% if page > 1 %}
+        <a href="/page/{{ page - 1 }}" class="btn btn-primary">Previous</a>
+        {% else %}
+        <div></div>
+        {% endif %}
+        <span>Page {{ page }} of {{ total_pages }}</span>
+        {% if page < total_pages %}
+        <a href="/page/{{ page + 1 }}" class="btn btn-primary">Next</a>
+        {% endif %}
+    </div>
+</div>
+</body>
+</html>

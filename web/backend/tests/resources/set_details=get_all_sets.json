@@ -1,0 +1,40 @@
+{
+    "data": [
+        {
+            "code": null,
+            "id": 571,
+            "language": "ENGLISH",
+            "name": "White Flare",
+            "release_date": "Fri, 18 Jul 2025 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 570,
+            "language": "ENGLISH",
+            "name": "Black Bolt",
+            "release_date": "Fri, 18 Jul 2025 00:00:00 GMT"
+        },
+        {
+            "code": null,
+            "id": 567,
+            "language": "ENGLISH",
+            "name": "Destined Rivals",
+            "release_date": "Fri, 30 May 2025 00:00:00 GMT"
+        },
+        {
+            "code": "JTG",
+            "id": 562,
+            "language": "ENGLISH",
+            "name": "Journey Together",
+            "release_date": "Fri, 28 Mar 2025 00:00:00 GMT"
+        },
+        {
+            "code": "M24",
+            "id": 559,
+            "language": "ENGLISH",
+            "name": "Mcdonald's Dragon Discovery",
+            "release_date": "Tue, 21 Jan 2025 00:00:00 GMT"
+        }
+    ],
+    "updated_date": "2025-09-05 22:38:06"
+}

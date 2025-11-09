@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourcePerFileMappings">
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/00faecf1-4530-4f6c-976b-501e2b9e9d77/console.sql" value="00faecf1-4530-4f6c-976b-501e2b9e9d77" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/00faecf1-4530-4f6c-976b-501e2b9e9d77/console_1.sql" value="00faecf1-4530-4f6c-976b-501e2b9e9d77" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/00faecf1-4530-4f6c-976b-501e2b9e9d77/console_2.sql" value="00faecf1-4530-4f6c-976b-501e2b9e9d77" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/00faecf1-4530-4f6c-976b-501e2b9e9d77/console_3.sql" value="00faecf1-4530-4f6c-976b-501e2b9e9d77" />
+    <file url="file://$PROJECT_DIR$/web/backend/db/dao/candidates_dao.py" value="00faecf1-4530-4f6c-976b-501e2b9e9d77" />
+    <file url="file://$PROJECT_DIR$/web/backend/db/dao/sales_dao.py" value="00faecf1-4530-4f6c-976b-501e2b9e9d77" />
+    <file url="file://$PROJECT_DIR$/web/backend/db/dao/set_dao.py" value="00faecf1-4530-4f6c-976b-501e2b9e9d77" />
+  </component>
+</project>
