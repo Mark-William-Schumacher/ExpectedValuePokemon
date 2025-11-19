@@ -4,120 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c536e667-78d6-4fa0-8a37-4284efc0a084" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/ExpectedValuePokemon.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/data_source_mapping.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core_module/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core_module/card_data_utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core_module/card_data_utils/add_ui_labels_to_candidates.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core_module/card_data_utils/calculate_expected_value.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core_module/card_data_utils/calculate_gem_rate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core_module/card_data_utils/calculate_volume.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core_module/card_data_utils/exchangeRate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core_module/card_data_utils/filter_cards_based_on_inputs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core_module/card_data_utils/find_stale_cache_files.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core_module/card_data_utils/get_raw_to_psa10_grading_value_from_jsons.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core_module/card_data_utils/get_recent_raw_ebay_sales.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core_module/card_data_utils/get_set_candidates_util.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core_module/card_data_utils/get_target_sets.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core_module/card_data_utils/ip_checker.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core_module/find_gradable_cards.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core_module/prelaunch/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core_module/prelaunch/image_downloader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core_module/prelaunch/pre_launch_scripts.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core_module/prelaunch/save_candidates_to_web.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core_module/service/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core_module/service/api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core_module/service/check_outdated_or_invalid_cache.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core_module/service/domain.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core_module/ui/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core_module/ui/favorites.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core_module/ui/showCards.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core_module/ui/show_card_images.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core_module/update_gradable_cards.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core_module/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core_module/utils/file_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core_module/utils/util.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/backend/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/backend/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/backend/card_cache_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/backend/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/backend/containers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/backend/db/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/backend/db/dao/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/backend/db/dao/candidates_dao.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/backend/db/dao/gem_rate_refresh_log_dao.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/backend/db/dao/psa_dao.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/backend/db/dao/queries.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/backend/db/dao/sales_dao.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/backend/db/dao/sales_volume_refresh_log_dao.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/backend/db/dao/set_dao.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/backend/db/database.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/backend/db/database_setup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/backend/db/db_config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/backend/db/schema/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/backend/db/schema/sales/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/backend/db/schema/sales/card_sales.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/backend/db/schema/sales/ebay_avg.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/backend/db/schema/sales/sales_volume.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/backend/db/schema/sales/sales_volume_refresh_log.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/backend/db/schema/sales/tcgplayer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/backend/db/schema/sales/transactions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/backend/db/schema/set/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/backend/db/schema/set/card_analytics.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/backend/db/schema/set/card_stats.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/backend/db/schema/set/cards.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/backend/db/schema/set/create_gem_rate_refresh_log_table.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/backend/db/schema/set/grading_financials.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/backend/db/schema/set/psa_population.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/backend/db/schema/set/set_details.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/backend/db/schema/set/sets.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/backend/db/util/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/backend/db/util/assets/psa_pop_cencus_2014_black_star_promo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/backend/db/util/assets/psa_pop_cencus_2015_black_star_promo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/backend/db/util/assets/psa_pop_cencus_2016_black_star_promo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/backend/db/util/assets/psa_pop_cencus_2017_black_star_promo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/backend/db/util/assets/psa_pop_cencus_set_id=515_2023.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/backend/db/util/assets/psa_pop_cencus_set_id=515_2024.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/backend/db/util/assets/psa_pop_cencus_set_id=515_2025.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/backend/db/util/backfill_refresh_log.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/backend/db/util/cache_to_db_migation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/backend/db/util/manually_enter_in_psa_pop_report.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/backend/db/util/parse_missing_psa_pops_from_html.py" afterDir="false" />
+    <list default="true" id="c536e667-78d6-4fa0-8a37-4284efc0a084" name="Changes" comment="initial commit">
       <change afterPath="$PROJECT_DIR$/web/backend/pokemon.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/backend/static/assets/candidates.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/backend/templates/cards.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/backend/templates/dynamic_view.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/backend/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/backend/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/backend/tests/resources/large_set_details=get_all_sets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/backend/tests/resources/set_details=get_all_sets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/backend/tests/resources/test_2_get_volume_of_transactions_large_file.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/backend/tests/resources/test_2_large_get_card_prices_setId=557.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/backend/tests/resources/test_get_volume_of_transactions_card_id=41324.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/backend/tests/resources/test_short_get_card_prices_setId=557.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/backend/tests/test_psa_dao.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/backend/tests/test_sales_dao.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/backend/tests/test_set_dao.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/backend/update_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/frontend/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/frontend/.eslintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/frontend/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/frontend/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/frontend/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/frontend/src/App.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/frontend/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/frontend/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,12 +35,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Mark-William-Schumacher/ExpectedValuePokemon.git",
-    "accountId": "ebbec512-3138-4d7a-88a8-d5a86631615a"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Mark-William-Schumacher&quot;
   }
-}]]></component>
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Mark-William-Schumacher/ExpectedValuePokemon.git&quot;,
+    &quot;accountId&quot;: &quot;ebbec512-3138-4d7a-88a8-d5a86631615a&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -422,12 +317,27 @@
       <workItem from="1760839057425" duration="21000" />
       <workItem from="1761403512298" duration="2588000" />
       <workItem from="1762050196643" duration="3187000" />
-      <workItem from="1762723589212" duration="350000" />
+      <workItem from="1762723589212" duration="3192000" />
+      <workItem from="1762968106219" duration="8000" />
+      <workItem from="1763487233415" duration="4834000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1762724039754</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1762724039754</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -456,10 +366,10 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/ExpectedValuePokemon$CardViewerApp.coverage" NAME="CardViewerApp Coverage Results" MODIFIED="1756226591567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ui" />
     <SUITE FILE_PATH="coverage/ExpectedValuePokemon$util.coverage" NAME="util Coverage Results" MODIFIED="1756433219392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core_module/utils" />
-    <SUITE FILE_PATH="coverage/ExpectedValuePokemon$transactions.coverage" NAME="transactions Coverage Results" MODIFIED="1757560132507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web/backend/db/schema/sales" />
+    <SUITE FILE_PATH="coverage/ExpectedValuePokemon$CardViewerApp.coverage" NAME="CardViewerApp Coverage Results" MODIFIED="1756226591567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ui" />
     <SUITE FILE_PATH="coverage/ExpectedValuePokemon$calculate_volume.coverage" NAME="calculate_volume Coverage Results" MODIFIED="1756093624833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/card_data_utils" />
+    <SUITE FILE_PATH="coverage/ExpectedValuePokemon$transactions.coverage" NAME="transactions Coverage Results" MODIFIED="1757560132507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web/backend/db/schema/sales" />
     <SUITE FILE_PATH="coverage/ExpectedValuePokemon$get_target_sets.coverage" NAME="get_target_sets Coverage Results" MODIFIED="1760392971138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core_module/card_data_utils" />
     <SUITE FILE_PATH="coverage/ExpectedValuePokemon$find_gradable_cards__1_.coverage" NAME="find_gradable_cards (1) Coverage Results" MODIFIED="1757290635143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core_module" />
     <SUITE FILE_PATH="coverage/ExpectedValuePokemon$domain.coverage" NAME="domain Coverage Results" MODIFIED="1757613136594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core_module/service" />
@@ -477,7 +387,7 @@
     <SUITE FILE_PATH="coverage/ExpectedValuePokemon$calculate_expected_value.coverage" NAME="calculate_expected_value Coverage Results" MODIFIED="1756076384019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/card_data_utils" />
     <SUITE FILE_PATH="coverage/ExpectedValuePokemon$ip_checker.coverage" NAME="ip_checker Coverage Results" MODIFIED="1757306263525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core_module/card_data_utils" />
     <SUITE FILE_PATH="coverage/ExpectedValuePokemon$candidates_dao.coverage" NAME="candidates_dao Coverage Results" MODIFIED="1760390723806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web/backend/db/dao" />
-    <SUITE FILE_PATH="coverage/ExpectedValuePokemon$showCards.coverage" NAME="showCards Coverage Results" MODIFIED="1762050329755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core_module/ui" />
+    <SUITE FILE_PATH="coverage/ExpectedValuePokemon$showCards.coverage" NAME="showCards Coverage Results" MODIFIED="1763517893872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core_module/ui" />
     <SUITE FILE_PATH="coverage/ExpectedValuePokemon$manually_enter_in_psa_pop_report.coverage" NAME="manually_enter_in_psa_pop_report Coverage Results" MODIFIED="1757955152323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web/backend/db/util" />
     <SUITE FILE_PATH="coverage/ExpectedValuePokemon$cache_to_db_migation.coverage" NAME="cache_to_db_migation Coverage Results" MODIFIED="1757823822424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web/backend/db/util" />
     <SUITE FILE_PATH="coverage/ExpectedValuePokemon$set_dao.coverage" NAME="set_dao Coverage Results" MODIFIED="1758334784463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web/backend/db/dao" />
@@ -488,7 +398,7 @@
     <SUITE FILE_PATH="coverage/ExpectedValuePokemon$showCards__1_.coverage" NAME="showCards (1) Coverage Results" MODIFIED="1757258827148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core_module/ui" />
     <SUITE FILE_PATH="coverage/ExpectedValuePokemon$card_viewer.coverage" NAME="card_viewer Coverage Results" MODIFIED="1756257894302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web" />
     <SUITE FILE_PATH="coverage/ExpectedValuePokemon$file_utils.coverage" NAME="file_utils Coverage Results" MODIFIED="1756431088742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core_module/utils" />
-    <SUITE FILE_PATH="coverage/ExpectedValuePokemon$update_service.coverage" NAME="update_service Coverage Results" MODIFIED="1761404521075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web/backend" />
+    <SUITE FILE_PATH="coverage/ExpectedValuePokemon$update_service.coverage" NAME="update_service Coverage Results" MODIFIED="1763512070627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web/backend" />
     <SUITE FILE_PATH="coverage/ExpectedValuePokemon$app__1_.coverage" NAME="app (1) Coverage Results" MODIFIED="1757298472248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web/backend" />
     <SUITE FILE_PATH="coverage/ExpectedValuePokemon$show_card_images.coverage" NAME="show_card_images Coverage Results" MODIFIED="1760373412808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core_module/ui" />
     <SUITE FILE_PATH="coverage/ExpectedValuePokemon$check_outdated_or_invalid_cache.coverage" NAME="check_outdated_or_invalid_cache Coverage Results" MODIFIED="1757215384228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core_module/service" />
