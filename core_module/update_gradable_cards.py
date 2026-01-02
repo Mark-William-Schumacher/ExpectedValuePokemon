@@ -69,7 +69,7 @@ def run_update_cycle():
     """
 
     print("--- Starting update cycle ---")
-    update_psa_pops(list_of_card_ids_no_pop)
+    # update_psa_pops()
 
     """Only run this if you want to update the sales data """
     stale_sets_from_db = set_dao_instance.get_stale_outdated_sets_list(1)
@@ -83,7 +83,7 @@ def run_update_cycle():
 
     if card_ids_without_volume:
         print(f"Found {len(card_ids_without_volume)} cards to update sales volume for: {card_ids_without_volume}")
-        update_missing_sales_volume_cards(card_ids_without_volume, sales_dao_instance, refresh_log_dao_instance)
+        update_missing_sales_volume_cards(card_ids_without_volume)
     else:
         print("No cards need sales volume updates at this time.")
 
