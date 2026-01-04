@@ -219,14 +219,31 @@ function App() {
 }
 
 // Components declared below App()
-const CardImage = ({localImage, imgUrl, name}) => (
-    <div style={{height: 170, display: "flex", alignItems: "center", justifyContent: "center", background: "#f3f3f3"}}>
-        <img
-            alt={name || "card"}
-            src={`http://127.0.0.1:5000/static/assets/images/${localImage}`}
-            style={{maxHeight: 160, objectFit: "contain"}}
-        />
-    </div>);
+const CardImage = ({localImage, imgUrl, name}) => {
+    // Prefer local image if available, otherwise use external URL
+    const imageSrc = localImage
+        ? `http://127.0.0.1:5000/static/assets/images/${localImage}`
+        : imgUrl;
+
+    return (
+        <div style={{height: 170, display: "flex", alignItems: "center", justifyContent: "center", background: "#f3f3f3"}}>
+            <img
+                alt={name || "card"}
+                src={imageSrc}
+                style={{maxHeight: 160, objectFit: "contain"}}
+                onError={(e) => {
+                    // If local image fails, try the external URL as fallback
+                    if (localImage && e.target.src.includes('127.0.0.1')) {
+                        e.target.src = imgUrl;
+                    } else {
+                        e.target.style.display = 'none';
+                        e.target.parentElement.innerHTML = '<div style="color: #999; text-align: center;">Image not available</div>';
+                    }
+                }}
+            />
+        </div>
+    );
+};
 
 const CardDetails = ({card, showDetails, useCAD}) => {
     const conversionRate = useCAD ? 1.35 : 1;

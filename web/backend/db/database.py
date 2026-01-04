@@ -1,6 +1,19 @@
 import sqlite3
 import os
+import sys
 from .database_setup import setup_schema
+
+def safe_print(message):
+    """Print with error handling to avoid OSError on Windows."""
+    try:
+        print(message, flush=True)
+    except (OSError, UnicodeEncodeError):
+        # Fallback to stderr if stdout fails
+        try:
+            sys.stderr.write(f"{message}\n")
+            sys.stderr.flush()
+        except:
+            pass  # Silently fail if both stdout and stderr are unavailable
 
 class Database:
     """
@@ -14,26 +27,28 @@ class Database:
 
         :param db_path: The full, absolute path to the database file.
         """
-        print("Creating and setting up new Database instance...")
+        safe_print("Creating and setting up new Database instance...")
         self.db_path = db_path
         self.conn = None
 
         # Establish the connection immediately.
         try:
             # Ensure the parent directory exists.
-            os.makedirs(os.path.dirname(self.db_path), exist_ok=True)
+            db_dir = os.path.dirname(self.db_path)
+            if db_dir:  # Only create directory if there is a parent directory
+                os.makedirs(db_dir, exist_ok=True)
             self.conn = sqlite3.connect(self.db_path, check_same_thread=False)
         except sqlite3.Error as e:
-            print(f"Database connection error: {e}")
+            safe_print(f"Database connection error: {e}")
             raise  # Re-raise the exception to fail fast if the DB can't be opened.
 
         # Set up the schema right after connecting.
         if self.conn:
-            print("Setting up database schema...")
+            safe_print("Setting up database schema...")
             setup_schema(self.conn)
-            print("Schema setup complete.")
+            safe_print("Schema setup complete.")
         else:
-            print("Warning: Database connection is not available. Schema setup skipped.")
+            safe_print("Warning: Database connection is not available. Schema setup skipped.")
 
 
     def get_connection(self):
@@ -45,4 +60,4 @@ class Database:
         if self.conn is not None:
             self.conn.close()
             self.conn = None
-            print("Database connection closed.")
+            safe_print("Database connection closed.")

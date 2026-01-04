@@ -5,13 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c536e667-78d6-4fa0-8a37-4284efc0a084" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/web/backend/pokemon.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QUICK_START.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SETUP_GUIDE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/START_SERVERS.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USAGE_GUIDE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/download_and_cache_images.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/start_servers.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/start_servers.ps1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/start_servers_old.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ExpectedValuePokemon.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ExpectedValuePokemon.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core_module/update_gradable_cards.py" beforeDir="false" afterPath="$PROJECT_DIR$/core_module/update_gradable_cards.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/backend/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/backend/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/backend/card_cache_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/backend/card_cache_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/backend/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/backend/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/backend/db/dao/candidates_dao.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/backend/db/dao/candidates_dao.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/backend/db/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/backend/db/database.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/frontend/.env" beforeDir="false" afterPath="$PROJECT_DIR$/web/frontend/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/frontend/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/web/frontend/src/App.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="39517" />
+    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -47,6 +68,10 @@
     &quot;accountId&quot;: &quot;ebbec512-3138-4d7a-88a8-d5a86631615a&quot;
   }
 }</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -55,74 +80,77 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JavaScript Debug.cards.html.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for web.backend.tests.test_psa_dao.TestPsaDAO.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for web.backend.tests.test_sales_dao.TestSalesDAO.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for web.backend.tests.test_sales_dao.TestSalesDAO.test_add_sales_from_json.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for web.backend.tests.test_sales_dao.TestSalesDAO.test_add_sales_from_large_json_file.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for web.backend.tests.test_set_dao.TestSetDAO.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for web.backend.tests.test_set_dao.TestSetDAO.test_get_set_details_as_json.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_sales_dao.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_set_dao.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python.CardViewerApp.executor&quot;: &quot;Run&quot;,
-    &quot;Python.CardViewerApp2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.add_ui_labels_to_candidates.executor&quot;: &quot;Run&quot;,
-    &quot;Python.api.executor&quot;: &quot;Run&quot;,
-    &quot;Python.app (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.app.executor&quot;: &quot;Run&quot;,
-    &quot;Python.backfill_refresh_log.executor&quot;: &quot;Run&quot;,
-    &quot;Python.cache_to_db_migation.executor&quot;: &quot;Run&quot;,
-    &quot;Python.calculate_expected_value.executor&quot;: &quot;Run&quot;,
-    &quot;Python.calculate_gem_rate.executor&quot;: &quot;Run&quot;,
-    &quot;Python.calculate_volume.executor&quot;: &quot;Run&quot;,
-    &quot;Python.candidates_dao.executor&quot;: &quot;Run&quot;,
-    &quot;Python.card_viewer.executor&quot;: &quot;Run&quot;,
-    &quot;Python.check_outdated_or_invalid_cache.executor&quot;: &quot;Run&quot;,
-    &quot;Python.domain.executor&quot;: &quot;Run&quot;,
-    &quot;Python.file_utils.executor&quot;: &quot;Run&quot;,
-    &quot;Python.find_gradable_cards (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.find_gradable_cards.executor&quot;: &quot;Run&quot;,
-    &quot;Python.find_stale_cache_files.executor&quot;: &quot;Run&quot;,
-    &quot;Python.getTargetSets.executor&quot;: &quot;Run&quot;,
-    &quot;Python.get_recent_raw_ebay_sales.executor&quot;: &quot;Run&quot;,
-    &quot;Python.get_set_candidates_util.executor&quot;: &quot;Run&quot;,
-    &quot;Python.get_target_sets (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.get_target_sets.executor&quot;: &quot;Run&quot;,
-    &quot;Python.image_downloader.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ip_checker.executor&quot;: &quot;Run&quot;,
-    &quot;Python.manually_enter_in_psa_pop_report.executor&quot;: &quot;Run&quot;,
-    &quot;Python.parse_missing_psa_pops_from_html.executor&quot;: &quot;Run&quot;,
-    &quot;Python.pre_launch_scripts.executor&quot;: &quot;Run&quot;,
-    &quot;Python.set_dao.executor&quot;: &quot;Run&quot;,
-    &quot;Python.showCards (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.showCards.executor&quot;: &quot;Run&quot;,
-    &quot;Python.show_card_images.executor&quot;: &quot;Run&quot;,
-    &quot;Python.transactions.executor&quot;: &quot;Run&quot;,
-    &quot;Python.update_gradable_cards.executor&quot;: &quot;Run&quot;,
-    &quot;Python.update_service.executor&quot;: &quot;Run&quot;,
-    &quot;Python.util.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/905mw/PycharmProjects/ExpectedValuePokemon/web/backend/db/util/assets&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\PyCharm 2024.2.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.cards.html.executor": "Run",
+    "Python tests.Python tests for web.backend.tests.test_psa_dao.TestPsaDAO.executor": "Run",
+    "Python tests.Python tests for web.backend.tests.test_sales_dao.TestSalesDAO.executor": "Run",
+    "Python tests.Python tests for web.backend.tests.test_sales_dao.TestSalesDAO.test_add_sales_from_json.executor": "Run",
+    "Python tests.Python tests for web.backend.tests.test_sales_dao.TestSalesDAO.test_add_sales_from_large_json_file.executor": "Run",
+    "Python tests.Python tests for web.backend.tests.test_set_dao.TestSetDAO.executor": "Run",
+    "Python tests.Python tests for web.backend.tests.test_set_dao.TestSetDAO.test_get_set_details_as_json.executor": "Run",
+    "Python tests.Python tests in test_sales_dao.py.executor": "Run",
+    "Python tests.Python tests in test_set_dao.py.executor": "Run",
+    "Python.CardViewerApp.executor": "Run",
+    "Python.CardViewerApp2.executor": "Run",
+    "Python.add_ui_labels_to_candidates.executor": "Run",
+    "Python.api.executor": "Run",
+    "Python.app (1).executor": "Run",
+    "Python.app.executor": "Run",
+    "Python.backfill_refresh_log.executor": "Run",
+    "Python.cache_to_db_migation.executor": "Run",
+    "Python.calculate_expected_value.executor": "Run",
+    "Python.calculate_gem_rate.executor": "Run",
+    "Python.calculate_volume.executor": "Run",
+    "Python.candidates_dao.executor": "Run",
+    "Python.card_viewer.executor": "Run",
+    "Python.check_outdated_or_invalid_cache.executor": "Run",
+    "Python.domain.executor": "Run",
+    "Python.download_and_cache_images.executor": "Run",
+    "Python.file_utils.executor": "Run",
+    "Python.find_gradable_cards (1).executor": "Run",
+    "Python.find_gradable_cards.executor": "Run",
+    "Python.find_stale_cache_files.executor": "Run",
+    "Python.getTargetSets.executor": "Run",
+    "Python.get_recent_raw_ebay_sales.executor": "Run",
+    "Python.get_set_candidates_util.executor": "Run",
+    "Python.get_target_sets (1).executor": "Run",
+    "Python.get_target_sets.executor": "Run",
+    "Python.image_downloader.executor": "Run",
+    "Python.ip_checker.executor": "Run",
+    "Python.manually_enter_in_psa_pop_report.executor": "Run",
+    "Python.parse_missing_psa_pops_from_html.executor": "Run",
+    "Python.pre_launch_scripts.executor": "Run",
+    "Python.set_dao.executor": "Run",
+    "Python.showCards (1).executor": "Run",
+    "Python.showCards.executor": "Run",
+    "Python.show_card_images.executor": "Run",
+    "Python.transactions.executor": "Run",
+    "Python.update_gradable_cards.executor": "Run",
+    "Python.update_service.executor": "Run",
+    "Python.util.executor": "Run",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/905mw/PycharmProjects/ExpectedValuePokemon/web/backend/db/util/assets",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\PyCharm 2024.2.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\905mw\PycharmProjects\ExpectedValuePokemon\web\backend\db\util\assets" />
@@ -138,7 +166,7 @@
       <recent name="C:\Users\905mw\PycharmProjects\ExpectedValuePokemon\web\frontend" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.showCards">
+  <component name="RunManager" selected="Python.download_and_cache_images">
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ExpectedValuePokemon" />
       <option name="ENV_FILES" value="" />
@@ -153,7 +181,31 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/web/backend/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="download_and_cache_images" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ExpectedValuePokemon" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="C:\Users\905mw\PycharmProjects\ExpectedValuePokemon\download_and_cache_images.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -176,6 +228,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/core_module/prelaunch/pre_launch_scripts.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -199,30 +252,8 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/core_module/ui/showCards.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="update_gradable_cards" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ExpectedValuePokemon" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/core_module" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/core_module/update_gradable_cards.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -245,6 +276,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/web/backend/update_service.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -256,19 +288,18 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.showCards" />
+        <item itemvalue="Python.download_and_cache_images" />
         <item itemvalue="Python.update_service" />
-        <item itemvalue="Python.update_gradable_cards" />
-        <item itemvalue="Python.pre_launch_scripts" />
         <item itemvalue="Python.app" />
+        <item itemvalue="Python.pre_launch_scripts" />
+        <item itemvalue="Python.showCards" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-PY-252.25557.178" />
-        <option value="bundled-python-sdk-ce6832f46686-7b97d883f26b-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.25557.178" />
+        <option value="bundled-python-sdk-f2b7a9f6281b-6e1f45a539f7-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.29346.142" />
       </set>
     </attachedChunks>
   </component>
@@ -404,5 +435,13 @@
     <SUITE FILE_PATH="coverage/ExpectedValuePokemon$check_outdated_or_invalid_cache.coverage" NAME="check_outdated_or_invalid_cache Coverage Results" MODIFIED="1757215384228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core_module/service" />
     <SUITE FILE_PATH="coverage/ExpectedValuePokemon$find_gradable_cards.coverage" NAME="find_gradable_cards Coverage Results" MODIFIED="1757816796795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core_module" />
     <SUITE FILE_PATH="coverage/ExpectedValuePokemon$pre_launch_scripts.coverage" NAME="pre_launch_scripts Coverage Results" MODIFIED="1760405706815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core_module/prelaunch" />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
   </component>
 </project>

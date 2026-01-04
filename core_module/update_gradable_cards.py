@@ -69,7 +69,7 @@ def run_update_cycle():
     """
 
     print("--- Starting update cycle ---")
-    # update_psa_pops()
+    update_psa_pops()
 
     """Only run this if you want to update the sales data """
     stale_sets_from_db = set_dao_instance.get_stale_outdated_sets_list(1)

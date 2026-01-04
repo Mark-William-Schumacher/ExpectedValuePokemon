@@ -1,4 +1,5 @@
 import sqlite3
+import urllib.parse
 from collections import defaultdict
 from pprint import pprint
 from textwrap import dedent
@@ -8,6 +9,27 @@ from core_module.card_data_utils.get_raw_to_psa10_grading_value_from_jsons impor
 
 from core_module.card_data_utils.calculate_expected_value import calculate_net_gain
 from core_module.utils.file_utils import save_object_to_file
+
+
+def get_local_image_filename(img_url):
+    """
+    Generate the local image filename from a card's img_url.
+    This matches the naming convention used by image_downloader.py.
+
+    :param img_url: The full URL to the card image
+    :return: The local filename (e.g., 'Hidden+Fates_68.webp')
+    """
+    if not img_url:
+        return None
+    try:
+        decoded_url = urllib.parse.unquote(img_url)
+        # Extract the last two parts: set name and card number
+        parts = decoded_url.split('/')
+        if len(parts) >= 2:
+            return f"{parts[-2]}_{parts[-1]}"
+    except Exception:
+        pass
+    return None
 
 
 class CandidatesDAO:
@@ -208,6 +230,9 @@ class CandidatesDAO:
             release_date_iso = row['release_date']
             formatted_release_date = release_date_iso.split('T')[0] if release_date_iso else None
 
+            # Generate local image filename
+            local_image = get_local_image_filename(row['img_url'])
+
             structured_card = {
                 "name": row['name'],
                 "raw_price": raw_price,
@@ -218,6 +243,7 @@ class CandidatesDAO:
                 "release_date": formatted_release_date,
                 "set_name": row['set_name'],
                 "set_id": row['set_id'],
+                "local_image": local_image,  # Add local image filename
                 "card_data": {
                     "hot": row['hot'],
                     "id": card_id,

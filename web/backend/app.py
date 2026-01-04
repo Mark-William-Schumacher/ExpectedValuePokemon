@@ -4,13 +4,27 @@ import math
 import os
 import sys
 
-from flask import Flask, render_template, jsonify, request
+from flask import Flask, render_template, jsonify, request, send_from_directory
+from flask_cors import CORS
 
 from core_module.card_data_utils.filter_cards_based_on_inputs import filter_cards
 from web.backend.card_cache_service import CardCacheService
 from web.backend.containers import AppContainer
 from web.backend.db.db_config import configure_sqlite_for_project
 from web.backend.update_service import UpdateService
+
+
+def safe_print(message):
+    """Print with error handling to avoid OSError on Windows."""
+    try:
+        print(message, flush=True)
+    except (OSError, UnicodeEncodeError):
+        # Fallback to stderr if stdout fails
+        try:
+            sys.stderr.write(f"{message}\n")
+            sys.stderr.flush()
+        except:
+            pass  # Silently fail if both stdout and stderr are unavailable
 
 
 def load_candidates_json():
@@ -32,6 +46,16 @@ def load_candidates_json():
     except json.JSONDecodeError:
         return {"error": "Invalid JSON format in candidates.json"}, 500
 
+def newWay():
+    container = AppContainer()
+    container.wire(modules=[__name__])
+    candidates_dao = container.candidates_dao()
+    return candidates_dao.find_profitable_candidates2(
+        min_value_increase=40,
+        min_psa10_price=70,
+        grading_cost=35,
+        min_net_gain=0
+    )
 
 def create_app() -> Flask:
     """
@@ -48,10 +72,16 @@ def create_app() -> Flask:
     # This is important for teardown and other integrations.
     container.wire(modules=[sys.modules[__name__]])
 
-    # 3. Create the Flask app instance.
-    app = Flask(__name__)
+    # 3. Create the Flask app instance with explicit static folder.
+    backend_dir = os.path.dirname(os.path.abspath(__file__))
+    static_folder = os.path.join(backend_dir, 'static')
 
-    # 4. Wire the container to the app for access in views or other parts of the app.
+    app = Flask(__name__, static_folder=static_folder, static_url_path='/static')
+
+    # 4. Enable CORS for React frontend (running on port 3000)
+    CORS(app, resources={r"/*": {"origins": ["http://localhost:3000", "http://127.0.0.1:3000"]}})
+
+    # 5. Wire the container to the app for access in views or other parts of the app.
     app.container = container
 
     # --- Register Routes ---
@@ -71,7 +101,7 @@ def create_app() -> Flask:
     @app.route('/page/<int:page>')
     def card_viewer(page=1):
         """Render the cards for the current page."""
-        result = load_candidates_json()
+        result = newWay()
         if isinstance(result, tuple):  # Handle error tuple
             return result
         cards_data = result
@@ -93,7 +123,7 @@ def create_app() -> Flask:
     @app.get("/api/cards")
     def get_cards():
         """API to get all cards."""
-        result = load_candidates_json()
+        result = newWay()
         if isinstance(result, tuple):  # Handle error tuple
             return result
         return jsonify(result)
@@ -103,42 +133,56 @@ def create_app() -> Flask:
         """
         API to get cards directly from the database with dynamic filtering.
         """
-        # Use the DI container to get the cache service instance
-        cache_service: CardCacheService = app.container.card_cache_service()
-        cards = cache_service.get_cached_cards()
+        try:
+            # Use the DI container to get the cache service instance
+            cache_service: CardCacheService = app.container.card_cache_service()
+            cards = cache_service.get_cached_cards()
 
-        # Extract query params for filtering
-        gem_rate = float(request.args.get("gem_rate", 0.40))
-        net_gain = float(request.args.get("net_gain", 40))
-        total_cost = float(request.args.get("total_cost", 100))
-        lucrative_factor = float(request.args.get("lucrative_factor", 0.50))
-        psa10_volume = int(request.args.get("psa10_volume", 10))
-        target_date = request.args.get("target_date", "2014-02-01")
-        end_date = request.args.get("end_date", None)
-        search = (request.args.get("search") or "").strip().lower()
+            # Extract query params for filtering
+            gem_rate = float(request.args.get("gem_rate", 0.40))
+            net_gain = float(request.args.get("net_gain", 40))
+            total_cost = float(request.args.get("total_cost", 100))
+            lucrative_factor = float(request.args.get("lucrative_factor", 0.50))
+            psa10_volume = int(request.args.get("psa10_volume", 10))
+            target_date = request.args.get("target_date", "2014-02-01")
+            end_date = request.args.get("end_date", None)
+            search = (request.args.get("search") or "").strip().lower()
 
-        filtered = filter_cards(
-            cards,
-            gem_rate=gem_rate,
-            net_gain=net_gain,
-            total_cost=total_cost,
-            lucrative_factor=lucrative_factor,
-            psa10_volume=psa10_volume,
-            start_date=target_date,
-            end_date=end_date
-        )
+            safe_print(f"Filter params: gem_rate={gem_rate}, net_gain={net_gain}, total_cost={total_cost}, "
+                  f"lucrative_factor={lucrative_factor}, psa10_volume={psa10_volume}, "
+                  f"target_date={target_date}, end_date={end_date}, search='{search}'")
+            safe_print(f"Total cards before filtering: {len(cards) if cards else 0}")
 
-        if search:
-            filtered = [
-                c for c in filtered
-                if (search in c["card_data"]["name"].lower()
-                    or search in str(c["card_data"]["id"]).lower()
-                    or search in str(c["card_data"]["num"]).lower()
-                    or search in c["card_data"]["set_name"].lower()
-                    or any(search in (sale.get("title", "").lower()) for sale in c.get("recent_raw_ebay_sales", [])))
-            ]
+            filtered = filter_cards(
+                cards,
+                gem_rate=gem_rate,
+                net_gain=net_gain,
+                total_cost=total_cost,
+                lucrative_factor=lucrative_factor,
+                psa10_volume=psa10_volume,
+                start_date=target_date,
+                end_date=end_date
+            )
 
-        return jsonify(filtered)
+            safe_print(f"Total cards after filtering: {len(filtered)}")
+
+            if search:
+                filtered = [
+                    c for c in filtered
+                    if (search in c["card_data"]["name"].lower()
+                        or search in str(c["card_data"]["id"]).lower()
+                        or search in str(c["card_data"]["num"]).lower()
+                        or search in c["card_data"]["set_name"].lower()
+                        or any(search in (sale.get("title", "").lower()) for sale in c.get("recent_raw_ebay_sales", [])))
+                ]
+                safe_print(f"Total cards after search filter: {len(filtered)}")
+
+            return jsonify(filtered)
+        except Exception as e:
+            safe_print(f"ERROR in get_filtered_cards: {type(e).__name__}: {str(e)}")
+            import traceback
+            traceback.print_exc()
+            return jsonify({"error": str(e), "type": type(e).__name__}), 500
 
     @app.post("/api/update-cycle")
     def update_cycle_endpoint():
@@ -153,8 +197,16 @@ def create_app() -> Flask:
             return jsonify({"status": "success", "message": "Update cycle initiated successfully."}), 202
         except Exception as e:
             # Log the full error for debugging
-            print(f"An error occurred during the update cycle: {e}")
+            safe_print(f"An error occurred during the update cycle: {e}")
             return jsonify({"status": "error", "message": "An internal error occurred during the update cycle."}), 500
+
+    @app.route('/static/assets/images/<path:filename>')
+    def serve_image(filename):
+        """
+        Serve card images from the static/assets/images folder.
+        """
+        images_dir = os.path.join(app.static_folder, 'assets', 'images')
+        return send_from_directory(images_dir, filename)
 
     # You could also set up the database schema on startup here if desired:
     # with app.app_context():

@@ -14,7 +14,7 @@ PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..
 
 # --- Database Configuration ---
 # Define the default path for the SQLite database, relative to the project root.
-DEFAULT_DB_PATH = os.path.join(PROJECT_ROOT, "web/backend/pokemon.db")
+DEFAULT_DB_PATH = os.path.join(PROJECT_ROOT, "web", "backend", "pokemon.db")
 
 # You can add other paths here later, for example:
-CACHE_DIR = os.path.join(PROJECT_ROOT, "cache/api_responses")
+CACHE_DIR = os.path.join(PROJECT_ROOT, "cache", "api_responses")
